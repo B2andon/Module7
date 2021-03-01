@@ -1,0 +1,43 @@
+2 Examples Each of both S3 and S4. 
+
+
+
+             S3
+    ====================
+    > id <- list(name = "Bob", age = 95, weight = 150)
+    
+    >s3
+    $name
+    [1] "Bob"
+    $age
+    [1] 95
+    $weight
+    [1]150
+    
+    ====================
+    
+    > GradeAverage <- c(95, 91, 89, 100, 94)
+
+    > head(GradeAverage)
+    [1]  95  91  89 100  94
+    
+    ====================
+    
+            S4
+            
+    ====================
+    Mage <- new("character", name ="Ghaldras", level=60, Mana=1000)
+    
+    > Mage
+    [1] "Ghaldras"  "60"        "1000"
+    
+    ====================
+    Warrior <- new("character", name="Gideon", level=60, Fury=100)
+    
+    [1] "Gideon"  "60"     "100"  
+    
+    ====================
+    
+    
+    
+    
